@@ -5,6 +5,14 @@
 2. `this` refers to an object which calls the function it contains.
 3. In the global context `this` refers to either window object or is undefined if the `strict mode` is used.
 
+## :page_facing_up: 목차
+* [Implicit Binding](#implicit-binding)
+* [Explicit Binding](#explicit-binding)
+* [new Binding](#new-binding)
+* [Lexical Binding](#lexical-binding)
+* [window Binding](#window-binding)
+
+
 
 ## Implicit Binding
 
@@ -149,9 +157,9 @@ sayAge() // TypeError: Cannot read property 'age' of undefined
 ```
 :memo: **참고 자료**   
 [https://tylermcginnis.com/this-keyword-call-apply-bind-javascript/](https://tylermcginnis.com/this-keyword-call-apply-bind-javascript/)   
-[https://www.taniarascia.com/this-bind-call-apply-javascript/](https://www.taniarascia.com/this-bind-call-apply-javascript/)
+[https://www.taniarascia.com/this-bind-call-apply-javascript/](https://www.taniarascia.com/this-bind-call-apply-javascript/) :heavy_check_mark:   
 [https://www.freecodecamp.org/news/how-to-use-the-apply-call-and-bind-methods-in-javascript-80a8e6096a90/](https://www.freecodecamp.org/news/how-to-use-the-apply-call-and-bind-methods-in-javascript-80a8e6096a90/)   
-[https://www.codementor.io/@niladrisekhardutta/how-to-call-apply-and-bind-in-javascript-8i1jca6jp](https://www.codementor.io/@niladrisekhardutta/how-to-call-apply-and-bind-in-javascript-8i1jca6jp)
+[https://www.codementor.io/@niladrisekhardutta/how-to-call-apply-and-bind-in-javascript-8i1jca6jp](https://www.codementor.io/@niladrisekhardutta/how-to-call-apply-and-bind-in-javascript-8i1jca6jp)   
 [https://www.codingame.com/playgrounds/9799/learn-solve-call-apply-and-bind-methods-in-javascript](https://www.codingame.com/playgrounds/9799/learn-solve-call-apply-and-bind-methods-in-javascript)   
 [https://medium.com/@omergoldberg/javascript-call-apply-and-bind-e5c27301f7bb](https://medium.com/@omergoldberg/javascript-call-apply-and-bind-e5c27301f7bb)   
 [https://youtu.be/zE9iro4r918](https://youtu.be/zE9iro4r918)   
