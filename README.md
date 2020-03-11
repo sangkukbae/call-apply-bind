@@ -87,7 +87,7 @@ function User (name, age) {
   this.name = name
   this.age = age
 }
-onst me = new User('Tyler', 27)
+const me = new User('Tyler', 27)
 ```
 
 ## Lexical Binding
